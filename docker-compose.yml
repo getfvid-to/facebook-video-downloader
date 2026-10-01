@@ -1,0 +1,6 @@
+services:
+  fb-downloader:
+    build: .
+    volumes:
+      - ./downloads:/downloads
+    command: ["--help"]
