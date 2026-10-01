@@ -149,7 +149,7 @@ docker run --rm -v $(pwd)/downloads:/downloads fb-downloader "https://www.facebo
 No. This tool operates via public HTTP stream discovery and does not bypass private group or friends-only restrictions. Only publicly accessible Facebook videos and Reels can be parsed.
 
 #### How can I download Facebook videos on iPhone or Android without a terminal?
-For mobile devices, using a command-line tool is not ideal. We recommend using the web application **[Getfvid](https://getfvid.to)** in your mobile browser (Safari, Chrome). It extracts videos directly without requiring Python or app installation.
+For mobile devices, using a command-line tool is not ideal. We recommend using the web application **[GetFvid](https://getfvid.to)** in your mobile browser (Safari, Chrome). It extracts videos directly without requiring Python or app installation.
 
 #### Why does the video download in SD when I requested HD?
 Facebook does not render 1080p/720p renditions for every uploaded clip. If an HD stream is not published by Facebook servers, the tool automatically falls back to the highest available SD resolution.
